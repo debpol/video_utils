@@ -22,6 +22,7 @@ It version works only for .mp4 file extension videos
 import time
 import os
 import shutil
+
 #os.getcwd()
 
 folder_name_to_process= "namefolder"
@@ -57,6 +58,6 @@ for file in files_list:
         time.sleep(300)
         
     else:
-        print(file + " it isnt a .mp4 file... copiying without modifications ")
+        print(file + " it isnt a .mp4 file... copying without modifications ")
         shutil.copy2(input_directory + "/" +  file, output_directory + "/" +  file)
         
