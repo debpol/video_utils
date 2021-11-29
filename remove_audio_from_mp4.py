@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """
+@author: Deb Pollicelli
 
 FFREPORT=file="/path/input_file-%p-%t.log" ffmpeg -i input_file.MP4 -map_metadata 0 -map 0:0 -c:a copy output_video_file_sinAudio.mp4 -report
 
